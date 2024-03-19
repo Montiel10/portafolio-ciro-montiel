@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montiel - Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                CIRO MONTIEL SOTO
+            </h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="s-container">
+            <div class="content">
+                <span class="subtitle">
+                    HOLA
+                </span>
+                <h1 class="title">
+                    Mi nombre es: <span>Montiel Soto Ciro <br></span>Estudiante de Ingeniero de Sistemas.
+                </h1>
+                <p class="description">
+                    Bienvenidos mi nombre es Ciro, estudiante del Octavo semestre de la carrera de Ingeniería 
+                    de Sistemas de la Universidad Tecnológica de los Andes. 
+                    Apasionado por la tecnología y dedicado a adquirir 
+                    conocimientos nuevos y demostrando habilidades para 
+                    gestionar con éxito tareas desafiantes y trabajar en equipo 
+                    en proyectos colaborativos. Motivado para contribuir de 
+                    manera significativa en entornos académicos y 
+                    profesionales, y comprometido a seguir desarrollando mis 
+                    habilidades y conocimientos.
+                </p>
+                <div class="buttons">
+                    <a href="cirmont19@gmail.com">Hire Me</a>
+                    <button>Portfolio</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="imagen/pfp.jpeg" alt="pfp">
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    const btn= document.getElementById("btn")
+    btn.addEventListener("click", () => {
+        document.querySelector("header ul").classList.toggle("show")
+    })
+</script>
+</html>
